@@ -1,0 +1,24 @@
+name: clarityscan
+description: "This innovative app leverages AI to analyze MRI/MRT images, providing an accuracy assessment of potential diseases with a sleek, intuitive interface and a clear warning for image type compatibility."
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  image_picker: '>=1.1.2'
+  shared_preferences: ^2.0.0
+  http: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
